@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Freelancer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+	<!-- Letra desde fonts Google -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="assets/icons/css/font-awesome.min.css">
+	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+	<!-- Colocamos el header -->
+	<header>
+		<nav class="menu flex-container">
+			<span class="text-uppercase project" id="project"> <a href="#home"> Start bootstrap</a> </span>
+			<a href="#portafolio" class="text-uppercase link" id="linkPortafolio">Portafolio</a>
+			<a href="#about" class="text-uppercase link">About</a>
+			<a href="#contact" class="text-uppercase link">Contact</a>
+		</nav>
+	</header>
+
+	<!-- Seccion de Home -->
+	<section id="home" class="flex-container">
+		<div class="container mt-0">
+			<img src="assets/images/profile.png" alt="">
+			<h1 class="text-uppercase project-title mt-0 mb-0">Start bootstrap</h1>
+			<span class="flex-container group">
+				<hr class="line line-ligth"></hr>
+				<i class="fa fa-star fa-2x iconStar"></i>
+				<hr class="line line-ligth"></hr>
+			</span>
+			<p class="mb-0 text-home">Web Developer - Graphic Artist - User Experience Designer</p>
+		</div>
+	</section>
+	<!-- Seccion del portafolio -->
+	<section id="portafolio">
+		<div class="flex-container">
+			<h2 class="text-uppercase text-portafolio mb-0">Portafolio</h2>
+		</div>
+		<span class="flex-container group">
+			<hr class="line line-dark"></hr>
+			<i class="fa fa-star fa-2x iconStar-dark"></i>
+			<hr class="line line-dark"></hr>
+		</span>
+		<div class="gridContainer gridPortafolio">
+			<div class="row flex-container">
+				<div class="imgPortafolio" id="img-1">
+				</div>
+				<div class="imgPortafolio" id="img-2">
+				</div>
+				<div class="imgPortafolio" id="img-3">
+				</div>
+				<div class="imgPortafolio" id="img-4">
+				</div>
+				<div class="imgPortafolio" id="img-5">
+				</div>
+				<div class="imgPortafolio" id="img-6">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Seccion About -->
+	<section id="about">
+		<h2 class="text-uppercase text-about-title mb-0">About</h2>
+		<span class="flex-container group">
+			<hr class="line line-ligth"></hr>
+			<i class="fa fa-star fa-2x iconStar"></i>
+			<hr class="line line-ligth"></hr>
+		</span>
+		<div class="gridContainer">
+			<div class="row flex-container">
+				<div class="col-6 col-left">
+					<p class="text-about">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including
+						HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+				</div>
+				<div class="col-6 col-rigth flex-container">
+					<p class="text-about">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist
+						looking to share your projects, this template is the perfect starting point!.</p>
+				</div>
+			</div>
+		</div>
+		<div class="btn">
+			<i class="fa fa-download fa-lg"></i> Download Themes
+		</div>
+	</section>
+	<!-- Seccion Contact Me -->
+	<section id="contact">
+		<h2 class="text-uppercase text-contact mb-0">Contact me</h2>
+		<span class="flex-container group">
+			<hr class="line line-dark"></hr>
+			<i class="fa fa-star fa-2x iconStar-dark"></i>
+			<hr class="line line-dark"></hr>
+		</span>
+
+		<form id="formulario">
+			<hr/>
+			<div class="dato">Name</div> <input type="text" class="info" id="name" required>
+			<hr/>
+			<div class="dato">Email Address</div> <input type="email" class="info" id="email" required>
+			<hr/>
+			<div class="dato">Phone Number</div> <input type="number" class="info" maxlength="9" id="number" required>
+			<hr/>
+			<div class="dato">Message</div><input type="text" class="info" id="message" required>
+			<hr/>
+			<input type="submit" value="Send" class="btnSend">
+		</form>
+	</section>
+	<section id="final">
+		<div class="gridContainer grid-final">
+			<div class="row">
+				<div class="col-4 ">
+					<p class="text-final text-uppercase">Location</p>
+					<p class="text-final-min">3481 Melrose Place <br/>Beverly Hills, CA 90210</p>
+				</div>
+				<div class="col-4">
+					<p class="text-final text-uppercase">Around the weeb</p>
+					<div class="circle">
+						<i class="fa fa-facebook fa-lg icon"></i>
+					</div>
+					<div class="circle">
+						<i class="fa fa-google-plus fa-lg icon"></i>
+					</div>
+					<div class="circle">
+						<i class="fa fa-twitter fa-lg icon"></i>
+					</div>
+					<div class="circle">
+						<i class="fa fa-linkedin fa-lg icon"></i>
+					</div>
+					<div class="circle">
+						<i class="fa fa-dribbble fa-lg icon"></i>
+					</div>
+
+				</div>
+				<div class="col-4">
+					<p class="text-final text-uppercase">About Freelancer</p>
+					<p class="text-final-min">Freelance is a free to use, open source <br/>Bootstrap theme create by <a href="#" class="link-final">Start Bootstrap</a>.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>Copyrigth &copy; Laboratoria 2017</p>
+	</footer>
+	<!-- Enlaza aquí tu archivo JS -->
+	<script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+/*
+ * Estilos reutilizables
+ */
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* Estilos para portafolio */
+
+.gridContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+/* .row::before,
+.row::after {
+    content: " ";
+    display: table;
+}
+
+.row::after {
+    clear: both;
+} */
+
+[class*="col-"] {
+    min-height: 7px;
+    padding: 0px 15px;
+    float: left;
+    margin-top: 0px;
+}
+
+.col-4 {
+    width: 33.333333%;
+}
+
+.col-6 {
+    width: 50%;
+}
+.col-12{
+    width: 100%;
+}
+/* Líneas de estrellas */
+
+.line{
+    display: inline-flex;
+    width: 10%;
+    height: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+
+}
+
+.line-dark{
+    background-color: #2c3e50;
+}
+
+.line-ligth{
+    background-color: white;
+}
+
+.iconStar {
+    margin-top: 12px; 
+    display: inline-block;
+    color: white;
+}
+
+.iconStar-dark {
+    margin-top: 12px; 
+    display: inline-block;
+    color: #2c3e50;
+}
+
+/* Titulos y cambios */
+
+.titleChange {
+    font-size: 150% !important;  
+} 
+
+.titleChange1 {
+    font-size: 120%;
+}
+
+/* Flex */
+
+.flex-container{
+	display: flex;
+}
